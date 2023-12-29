@@ -1,0 +1,20 @@
+bp 409C
+m1 40EC
+m2 40F0
+sym calcsize = 400B
+sym the_glyph = 4040
+sym setbaseaddress = 4056
+sym notZ = 4079
+sym next1 = 407F
+sym  = 4090
+sym  = 409C
+sym leftmargin = 40E4
+sym maxh = 40E5
+sym maxv = 40E6
+sym rowcnt = 40E7
+sym dataindex = 40E8
+sym line = 40E9
+sym dataptr = 40EA
+sym gindex = 40EC
+sym gindexcnt = 40EE
+sym glyphsize = 40F0
