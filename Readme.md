@@ -31,14 +31,23 @@ The structure is the same as that of the binary format. Labels are added; and da
 
 Example :
 numglyph hex 6900
+
 gwidth hex 05
+
 gheight hex 22
+
 font
+
  hex 7F00403F00
+
  hex 7800400F00
+
  hex 7801400700
+
  hex 7801600700
+
  hex 7801600700
+ 
  hex 7803300700
 
 ## Apple II
