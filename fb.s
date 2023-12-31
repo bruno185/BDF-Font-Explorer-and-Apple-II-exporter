@@ -1,12 +1,14 @@
                 org $4000
                 put equ
 
-* use this if font data (in binary format) is loaded at a fix address ($6000 in this example)
+* Use these equ if font data (in binary format) is loaded at a fix address ($6000 in this example)
 *numglyph        equ $6000
 *gwidth          equ numglyph+2
 *gheight         equ gwidth+1
 *font            equ gheight+1
-* otherwise put font data (in source format) at the end of this source file. 
+*
+* Otherwise put font data (in source format) at the end of this source file
+* (see end of this file)
 * Labels must be the same in both cases (numglyph, gwidth, gheight, font)
 
 ptr             equ $06
@@ -48,7 +50,7 @@ calcsize        lda glyphsize
 
 *<sym>
 the_glyph
-                lda #$21                       ; glyph index in A,X (A = low byte, X = hi byte)
+                lda #$42                       ; glyph index in A,X (A = low byte, X = hi byte)
                 ldx #$0
                 jsr printglyph
                 rts
