@@ -10,6 +10,7 @@ It also lets you export one or more glyphs in a format that can be easily read b
 Launch the application BDF_Analyser.exe and drag and drop a BDF file onto the window.
 You can fin BDF fonts here :
 https://github.com/olikraus/u8g2/tree/master/tools/font/bdf
+
 https://github.com/farsil/ibmfonts
 ...
 
@@ -46,6 +47,8 @@ Note that the Delphi program "inverts" the bit order of the pixels, to make them
 
 
 ## Requirements to compile and run
+The Delphi program is produced with the Community Edition of Embarcadero. The source files are here:
+https://github.com/bruno185/BDF-Analyser
 
 Here is my configuration for Apple II cross developement :
 
