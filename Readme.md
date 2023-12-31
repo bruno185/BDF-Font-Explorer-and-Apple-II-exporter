@@ -28,7 +28,9 @@ The following bytes represent the raw glyph bitmap data, without separator.\
 Source format :
 The structure is the same as that of the binary format. Labels are added; and data are represented in hexadecimal format (Merlin's "hex" opcode).
 
-Example :\numglyph hex 6900\gwidth hex 05\gheight hex 22\font\ hex 7F00403F00\ hex 7800400F00\ hex 7801400700\ hex 7801600700\ hex 7801600700\ hex 7803300700
+Example :\
+
+numglyph hex 6900\gwidth hex 05\gheight hex 22\font\ hex 7F00403F00\ hex 7800400F00\ hex 7801400700\ hex 7801600700\ hex 7801600700\ hex 7803300700
 
 ## Apple II
 A very simple program is provided to display a glyph on an Apple II. The program is well commented. It is provided as an example to demonstrate the use of exported glyphs.
